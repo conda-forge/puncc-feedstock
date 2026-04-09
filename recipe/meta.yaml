@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/puncc-{{ version }}.tar.gz
-  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  sha256: 15da66451c70e2f91c06a3176c42fe7d9a971957d2f68bb982185f2badd0eece
 
 build:
   noarch: python
