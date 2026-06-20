@@ -24,7 +24,7 @@ requirements:
     - python >={{ python_min }}
     - joblib
     - matplotlib-base
-    - numpy
+    - numpy <2.0.0
     - pandas
     - scikit-learn >=1.5
     - tqdm
