@@ -1,5 +1,5 @@
 {% set name = "puncc" %}
-{% set version = "0.9.2" %}
+{% set version = "0.9.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/puncc-{{ version }}.tar.gz
-  sha256: 993b5e945ed4ce5cca86f5564d4f4477b1a041defb689f526d64be68730cfab7
+  sha256: 26a177ce45fe9f7ade6938288b01ad1fc7a8d6df773560fb01bfdbdfbadd96de
 
 build:
   noarch: python
